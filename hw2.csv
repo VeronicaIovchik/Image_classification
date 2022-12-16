@@ -1,0 +1,4 @@
+,model,Test score (Accuracy),Train score (Accuracy),Number of trainable parameters,Number of layers,Regularization methods,Number of epochs,Loss function,Optimizer
+0,Basic CNN,0.81,0.9556249976158142,726786,12,No regularization,20,binary_crossentropy,rmsprop
+1,Our Model,0.8175,0.9846875071525574,2976162,28,"BatchNormalization,Dropout",20,binary_crossentropy,adam
+2,VGG16,0.92,0.9996874928474426,8109986,1,"BatchNormalization,Dropout",20,binary_crossentropy,adam
